@@ -1,2 +1,2 @@
-# road2simulation-map-styles
-Supplementary QGIS map styles for Road2Simulation layers.
+# road2simulation-layer-styles
+Supplementary QGIS layer styles for Road2Simulation layers.
