@@ -16,18 +16,18 @@
       <symbol type="line" name="0" alpha="1" force_rhr="0" clip_to_extent="1">
         <layer pass="0" enabled="1" class="SimpleLine" locked="0">
           <prop v="square" k="capstyle"/>
-          <prop v="5;2" k="customdash"/>
+          <prop v="" k="customdash"/>
           <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-          <prop v="MM" k="customdash_unit"/>
+          <prop v="Pixel" k="customdash_unit"/>
           <prop v="0" k="draw_inside_polygon"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,215,253,255" k="line_color"/>
           <prop v="solid" k="line_style"/>
-          <prop v="0.46" k="line_width"/>
-          <prop v="MM" k="line_width_unit"/>
+          <prop v="2" k="line_width"/>
+          <prop v="Pixel" k="line_width_unit"/>
           <prop v="0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
+          <prop v="Pixel" k="offset_unit"/>
           <prop v="0" k="ring_filter"/>
           <prop v="0" k="use_custom_dash"/>
           <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
@@ -46,14 +46,14 @@
   </renderer-v2>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style isExpression="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontItalic="0" fontFamily="MS Shell Dlg 2" allowHtml="0" useSubstitutions="0" namedStyle="Standard" fontKerning="1" fontUnderline="0" fontLetterSpacing="0" multilineHeight="1" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" fontSize="8.25" fontCapitals="0" fontStrikeout="0" blendMode="0" fieldName="id || ' (' || parent_id || ')'" textOrientation="horizontal" textColor="0,0,0,255" fontWeight="50" textOpacity="1">
-        <text-buffer bufferDraw="1" bufferSize="1" bufferSizeUnits="MM" bufferNoFill="0" bufferJoinStyle="128" bufferOpacity="1" bufferColor="0,215,253,255" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+      <text-style isExpression="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontItalic="0" fontFamily="MS Shell Dlg 2" allowHtml="0" useSubstitutions="0" namedStyle="Standard" fontKerning="1" fontUnderline="0" fontLetterSpacing="0" multilineHeight="1" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" fontSize="8" fontCapitals="0" fontStrikeout="0" blendMode="0" fieldName="id" textOrientation="horizontal" textColor="0,0,0,255" fontWeight="50" textOpacity="1">
+        <text-buffer bufferDraw="1" bufferSize="2" bufferSizeUnits="Point" bufferNoFill="1" bufferJoinStyle="128" bufferOpacity="1" bufferColor="0,215,253,255" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
         <text-mask maskOpacity="1" maskedSymbolLayers="" maskType="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSize="1.5" maskJoinStyle="128" maskEnabled="0" maskSizeUnits="MM"/>
         <background shapeSizeY="0" shapeSizeUnit="MM" shapeSizeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeType="0" shapeOpacity="1" shapeBorderWidthUnit="MM" shapeRadiiX="0" shapeOffsetX="0" shapeRadiiY="0" shapeSizeX="0" shapeBorderColor="128,128,128,255" shapeSVGFile="" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeRotationType="0" shapeBlendMode="0" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeRotation="0" shapeDraw="0" shapeOffsetUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0">
           <symbol type="marker" name="markerSymbol" alpha="1" force_rhr="0" clip_to_extent="1">
             <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
               <prop v="0" k="angle"/>
-              <prop v="190,207,80,255" k="color"/>
+              <prop v="183,72,75,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="circle" k="name"/>
@@ -90,9 +90,9 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format leftDirectionSymbol="&lt;" plussign="0" reverseDirectionSymbol="0" autoWrapLength="0" decimals="3" rightDirectionSymbol=">" formatNumbers="0" multilineAlign="0" wrapChar="" placeDirectionSymbol="0" addDirectionSymbol="1" useMaxLineLengthForAutoWrap="1"/>
-      <placement dist="0" maxCurvedCharAngleOut="-25" geometryGeneratorEnabled="0" xOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="2" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceUnit="MM" quadOffset="4" fitInPolygonOnly="0" repeatDistance="0" yOffset="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" polygonPlacementFlags="2" geometryGenerator="" centroidWhole="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleIn="25" centroidInside="0" geometryGeneratorType="PointGeometry" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="LineGeometry" distUnits="MM" rotationAngle="0" offsetUnits="MapUnit" priority="5" overrunDistance="0" repeatDistanceUnits="MM" preserveRotation="1" offsetType="0"/>
-      <rendering mergeLines="0" obstacleType="0" upsidedownLabels="0" drawLabels="1" scaleVisibility="0" labelPerPart="0" limitNumLabels="0" fontMinPixelSize="3" scaleMax="10000000" scaleMin="1" maxNumLabels="2000" displayAll="0" minFeatureSize="0" obstacleFactor="1" obstacle="1" fontLimitPixelSize="0" zIndex="0" fontMaxPixelSize="10000"/>
+      <text-format leftDirectionSymbol="&lt;" plussign="0" reverseDirectionSymbol="0" autoWrapLength="0" decimals="3" rightDirectionSymbol=">" formatNumbers="0" multilineAlign="0" wrapChar="" placeDirectionSymbol="0" addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1"/>
+      <placement dist="0" maxCurvedCharAngleOut="-25" geometryGeneratorEnabled="0" xOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="2" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceUnit="MM" quadOffset="4" fitInPolygonOnly="0" repeatDistance="0" yOffset="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" polygonPlacementFlags="2" geometryGenerator="" centroidWhole="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" maxCurvedCharAngleIn="25" centroidInside="0" geometryGeneratorType="PointGeometry" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="LineGeometry" distUnits="MM" rotationAngle="0" offsetUnits="MM" priority="5" overrunDistance="0" repeatDistanceUnits="MM" preserveRotation="1" offsetType="0"/>
+      <rendering mergeLines="0" obstacleType="1" upsidedownLabels="0" drawLabels="1" scaleVisibility="1" labelPerPart="0" limitNumLabels="0" fontMinPixelSize="3" scaleMax="4000" scaleMin="0" maxNumLabels="2000" displayAll="0" minFeatureSize="0" obstacleFactor="1" obstacle="1" fontLimitPixelSize="0" zIndex="0" fontMaxPixelSize="10000"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" value="" name="name"/>
@@ -126,9 +126,7 @@
     </settings>
   </labeling>
   <customproperties>
-    <property key="dualview/previewExpressions">
-      <value>COALESCE( "datasourcedescription_id", '&lt;NULL>' )</value>
-    </property>
+    <property value="COALESCE( &quot;datasourcedescription_id&quot;, '&lt;NULL>' )" key="dualview/previewExpressions"/>
     <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
