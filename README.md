@@ -3,7 +3,7 @@ Map styles for Road2Simulation layers in two different formats:
 * `qml/` QML for the use in QGIS,
 * `sld/` SLD as more generic format for the use in GeoServer, for example.
 
-Both style formats are not necessarily interoperable because QML offers more sophisticated styling possibilities than SLD. Further, the SLD styles are exported from QGIS wich does not support all features of SLD.
+Both style formats are not necessarily interoperable because QML offers more sophisticated styling possibilities than SLD. Further, the SLD styles are exported from QGIS which does not support all features of SLD.
 
 ## QML style
 
